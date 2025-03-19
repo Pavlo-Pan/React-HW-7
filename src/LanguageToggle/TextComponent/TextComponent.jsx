@@ -1,5 +1,5 @@
 import styles from './TextComponent.module.css'
-import { useLanguage } from '../../context/LanguageProvider';
+import { useLanguage } from '../../context/useLanguage.js';
 export default function TextComponent() {
     const { language } = useLanguage();
     const texts = {
