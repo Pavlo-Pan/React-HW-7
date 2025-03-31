@@ -1,5 +1,5 @@
 import styles from './LanguageToggle.module.css'
-import { LanguageProvider } from '../context/LanguageProvider.jsx'
+import { LanguageProvider } from '../../context/LanguageProvider.jsx'
 import LanguageSwitcher from './LanguageSwitcher/LanguageSwitcher.jsx'
 import TextComponent from './TextComponent/TextComponent.jsx'
 
