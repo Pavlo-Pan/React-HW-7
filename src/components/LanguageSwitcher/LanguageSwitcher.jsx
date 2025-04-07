@@ -1,5 +1,5 @@
 import style from './LanguageSwitcher.module.css'
-import { useLanguage } from '../../../context/useLanguage.js'
+import { useLanguage } from '../../context/useLanguage.js'
 export default function LanguageSwitcher() {
     const { language, toggleLanguage } = useLanguage();
     const btnText = {
